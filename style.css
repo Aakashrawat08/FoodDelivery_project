@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.background3{
+    background-color: rgba(0,0,0, 0.2);
+}
+.main .logo{
+width: 50%;
+
+display: flex;
+padding-left: 50px
+}
+.main .navbar{
+width: 50%;
+}
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;   
+}
+.nav li{
+    list-style: none;    
+}
+.nav li a{
+    text-decoration: none;
+}
+.main .logo img{
+    width: 20%;
+}
+.background{
+    background-image: url(./foodappimages/herosectionbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background2{
+    background-image: url(./foodappimages/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.herosection .content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+}
+.herosection .buttonclass{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 80px;
+}
+.appname{
+    
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+color: hwb(0 93% 2%);
+padding-bottom: 20px;
+}
+.heading{
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.20000000298023224px;
+color: #faf7f7;
+padding-bottom: 20px;
+}
+.span1{
+    margin-left: 60px;
+}
+.appname2{
+    
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    color: hsl(0, 0%, 98%);
+     padding-bottom: 20px;
+}
+.first{
+padding:  12px 22px;
+background-color: #FA4A0C;
+color: white;
+border-radius: 20px;
+}
+
+.second{
+    padding:  12px 22px;
+background-color: rgba(0,0,0, 0.2);
+color: white;
+border-radius: 20px;
+
+}
+.feature{
+    /* margin-left: 50%;
+    translate: -50%; */
+    position: relative;
+    top: -180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#appwork{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+
+}
+.imagecontentwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 70px; */
+    column-gap: 100px;
+    
+}
+.accountcreat{
+    
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FA4A0C;
+     
+}
+.logincontent{
+ 
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+
+}
+.passwordcontent{
+    
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    width: 85%;
+
+    
+}
+.contentwrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.imagecontentwrapper2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 70px; */
+    column-gap: 100px;
+    flex-direction: row-reverse;
+    margin-top: -200px;
+    
+}
+.passwordcontent2{
+    
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    width: 100%;
+
+    
+}
+.imagecontentwrapper3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 70px; */
+    column-gap: 100px;
+    margin-top: -200px;
+
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footercontent{
+    padding-right: 80px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    
+
+
+}
+.footerimg img{
+padding-left: 80px;
+}
+.footericon{
+    display: flex;
+    column-gap: 20px;
+}
